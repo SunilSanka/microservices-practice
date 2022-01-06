@@ -39,3 +39,29 @@
  A User can have multiple Posts and 
    
 )
+
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+Products
+ 
+ - Retrieve all products  - GET    /products
+ - Add a Product          - POST   /products
+ - Retrieve one Product   - GET    /products/{id} -> /products/1
+ - Delete a User          - DELETE /products/{id} -> /products/1
+================================================================== 
+ - Retrieve all reviews for a product - GET /products/{id}/posts
+ - Create a posts for a user   - POST /users/{id}/posts
+ - Retrieve details of a post  - GET /users/{id}/posts/{posts_id}
+ 
+================================================================== 
+Cart
+ - Retrieve all products  - GET    /user{id}/cart
+ - Add a product to cart  - POST   /user{id}/cart/product/
+ - Retrieve one Product   - GET    /user{id} -> /products/1
+ - Delete a User          - DELETE /user{id} -> /products/1	
+================================================================== 
+
+
+
+--------------------------------------------------------------------------------------------------------------
